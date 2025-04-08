@@ -26,4 +26,4 @@
       "runtimeArgs": ["start"]
     }
   ]
-}
+}source octofit-tracker/backend/venv/bin/activate && pip install djongo
