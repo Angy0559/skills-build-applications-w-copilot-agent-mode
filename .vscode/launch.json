@@ -9,7 +9,7 @@
       "args": ["runserver", "0.0.0.0:8000"],
       "django": true,
       "justMyCode": true,
-      "python": "debugpy",
+      "python": "${workspaceFolder}/octofit-tracker/backend/venv/bin/python",
       "env": {
         "PYTHONPATH": "${workspaceFolder}/octofit-tracker/backend/venv/bin/python",
         "VIRTUAL_ENV": "${workspaceFolder}/octofit-tracker/backend/venv",
@@ -23,7 +23,8 @@
       "program": "${workspaceFolder}/octofit-tracker/frontend/node_modules/react-scripts/scripts/start.js",
       "cwd": "${workspaceFolder}/octofit-tracker/frontend",
       "runtimeExecutable": "npm",
-      "runtimeArgs": ["start"]
+      "runtimeArgs": ["start"],
+      "port": 3000
     }
   ]
-}source octofit-tracker/backend/venv/bin/activate && pip install djongo
+}
